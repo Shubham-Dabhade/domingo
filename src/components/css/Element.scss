@@ -1,0 +1,189 @@
+body{
+    background-image: url("../images/blob-scene-haikei.svg");
+}
+.Element{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin: 10px 30px;
+    .checked{
+        color: orange;
+    }
+    .Profile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 30%;
+        padding: 40px 20px 20px 20px ;
+        position: relative;
+        .contained{
+
+            border-radius: 20px;
+            border: 1px solid #33333331;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            overflow: hidden;
+
+            .logo1{
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                .logo{
+                    align-items: center;
+                    justify-content: center;
+                    height: 250px;
+                    width: 390px;
+
+                }
+            }
+            .name{
+                font-family: 'Lora', serif;
+                font-style: italic;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: left;
+                margin: 10px 20px;
+                left: -0px;
+            }
+            .address{
+                align-items: center;
+                justify-content: center;
+                font-family: 'Lora', serif;
+                font-style: italic;
+                font-size: 20px;
+                margin: 20px 20px;
+                text-align: left;
+                width: 81%;
+                img{
+                    height: 30px;
+                    width: 30px;
+                    display: inline;
+                }
+                .actual{
+                    display: inline;
+                }
+    
+            }
+        }
+    }
+    .form{
+        border-radius: 20px;
+        text-align: left;
+        width: 100%;
+        .menu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            .menu1{
+                color: #fff;
+                font-size: 40px;
+                font-family: "Open Sans", sans-serif;
+                margin: 0px 0px 10px 0px;
+            }
+            .someForm{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                #Veg{
+                    height: 32px;
+                    width: 40px;
+                    background: rgb(111, 218, 111);
+                    text-align: center;
+                    color: rgb(24, 72, 26);
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0px 10px;
+                    cursor: pointer;
+                    border: none;
+                }
+                #nonVeg{
+                    height: 32px;
+                    width: 70px;
+                    background: red;
+                    text-align: center;
+                    color: #fff;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0px 10px;
+                    cursor: pointer;
+                    border: none;
+                }
+            }
+            .center{
+                margin: 20px;
+                background: rgba(255, 255, 255, 0.24);
+                border-radius: 16px;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(3.5px);
+                -webkit-backdrop-filter: blur(3.5px);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                .dataStore{
+                    margin: 0px 20px;
+                    width: 100%;
+                    display: grid;
+                    gap: 5px 5px;
+                    grid-template-columns: 220px 220px 220px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:1180px){
+    .Element .form .menu .center .dataStore {
+        margin: 0px 20px;
+        width: 100%;
+        display: grid;
+        gap: 5px 5px;
+        grid-template-columns: 201px 202px 203px;
+        padding: 0px;
+        align-content: center;
+        justify-content: start;
+        align-items: baseline;
+        justify-items: center;
+    }
+    .Element {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 10px 12px;
+    }
+}
+
+@media(max-width:1090px){
+    .Element .Profile .contained .logo1 .logo {
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+        width: 320px;
+    }
+    .Element .form {
+        border-radius: 20px;
+        text-align: left;
+        width: 56%;
+    }
+    .Element .form .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 79%;
+    }
+    
+    
+}

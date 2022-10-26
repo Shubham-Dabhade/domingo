@@ -1,0 +1,129 @@
+
+
+
+.data-card{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-width: 9.75em;
+    min-height: 9.75em;
+    overflow: hidden;
+    border-radius: .5em;
+    text-decoration: none;
+    background: white;
+    margin: 1em;
+    padding: 1.75em 1.5em;
+    box-shadow: 0 1.5em 2.5em -.5em rgba(#000000, .1);
+    transition: transform .45s ease, background .45s ease;
+        .logoN{
+            color: #2E3C40;
+            font-size: 3.5em;
+            font-weight: 600;
+            line-height: 1;
+            padding-bottom: .5em;
+            margin: 0 0 0.142857143em;
+            transition: color .45s ease, border .45s ease;
+            height: 150px;
+            width: 150px;
+        }
+        p {
+            opacity: 0;
+            color:#000000;
+            font-weight: 600;
+            line-height: 1.8;
+            margin: 0 0 1.25em;
+            transform: translateY(-1em);
+            transition: opacity .45s ease, transform .5s ease;
+        }
+        .link-text {
+            svg {
+              margin-left: .5em;
+              transition: transform .6s ease;
+              
+              path {
+                transition: fill .45s ease;
+              }
+            }
+          }
+
+          &:hover {
+            background: #ffffff;
+            transform: scale(1.02);
+            
+            h3 {
+              color: #FFFFFF;
+              border-bottom-color: #A754C4;
+            }
+        
+            h4 {
+              color: #FFFFFF;
+            }
+        
+            p {
+                text-decoration: none;
+              opacity: 1;
+              transform: none;
+            }
+        
+            .link-text {
+              color: #FFFFFF;
+        
+              svg {
+                animation: point 1.25s infinite alternate;
+                
+                path {
+                  fill: #FFFFFF;
+                }
+              }
+            }
+          }
+}
+
+
+@media(max-width:1160px){
+    .data-card {
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-width: 0.75em;
+        min-height: 0.75em;
+        overflow: hidden;
+        border-radius: 0.5em;
+        text-decoration: none;
+        background: white;
+        margin: 1em;
+        padding: 1.75em 1.5em;
+        box-shadow: 0 1.5em 2.5em -0.5em rgb(0 0 0 / 10%);
+        transition: transform 0.45s ease, background 0.45s ease;
+    }
+    .data-card .logoN {
+        color: #2E3C40;
+        font-size: 3.5em;
+        font-weight: 600;
+        line-height: 1;
+        padding-bottom: 0.5em;
+        margin: 0 0 0.142857143em;
+        transition: color 0.45s ease, border 0.45s ease;
+        height: 110px;
+        width: 110px;
+    }
+}
+
+
+@media(max-width:940px){
+    .data-card {
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-width: 0.75em;
+        min-height: 0.75em;
+        overflow: hidden;
+        border-radius: 0.5em;
+        text-decoration: none;
+        background: white;
+        margin: 1em;
+        padding: 0.75em 0.5em;
+        box-shadow: 0 1.5em 2.5em -0.5em rgb(0 0 0 / 10%);
+        transition: transform 0.45s ease, background 0.45s ease;
+    }
+}

@@ -1,0 +1,950 @@
+.carousel1{
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    margin: 0px 150px;
+    overflow: hidden;
+    z-index: 3;
+    .carouselInside{
+        display: flex;
+        align-items: center;
+        z-index: 3;
+        .carouselSlide{
+            margin: 0px 120px 0px 45px;
+            width: 920px;
+            .carouselItem{
+                padding: 30px 0px;
+                height: 200px;
+            
+                .number{
+                    font-family: 'Familjen Grotesk', sans-serif;
+                    color: aliceblue;
+                    position: relative;
+                    left: 50px;
+                    font-weight: 300;
+                    font-size: 120px;
+                    z-index: 1;
+                }
+                .quote{
+                    text-align: center;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 900;
+                    position: relative;
+                    top: -180px;
+                    color:#4958D8;
+                    font-size:250px;
+                }
+        
+                .line{
+                    height: 6px;
+                    width: 100px;
+                    background: aliceblue;
+                    position: relative;
+                    top: -220px;
+                    left: 50px;
+                }
+        
+                .image{
+                    position: relative;
+                    top: -550px;
+                    left: 50%;
+                    transform: translate(-12%,0%);
+                    .image1{
+                        height: 360px;
+                        width: 320px;
+                    }
+                }
+        
+                .specifics{
+                    position: relative;
+                    color: aliceblue;
+                    font-family: 'Lora', serif;
+                    font-style: italic;
+                    top: -150px;
+                    left: 50px;
+                    width: 300px;
+                    font-size: 18px;
+                }
+        
+                .left{
+                    height: 40px;
+                    width: 100px;
+                    border: none;
+                    position: relative;
+                    right: -700px;
+                    top: -190px;
+                    border-radius: 20px;
+                    color: #3CC1A0;
+                }
+                .right{
+                    height: 40px;
+                    width: 100px;
+                    border: none;
+                    position: relative;
+                    right: -720px;
+                    top: -190px;
+                    border-radius: 20px;
+                    opacity: 0.6;
+                }
+            }
+        }
+        
+        
+        
+        .carouselSlide1{
+            margin: 0px 120px 0px 45px;
+            width: 920px;
+        
+            .carouselItem1{
+                padding: 30px 0px;
+                height: 200px;
+            
+                .number1{
+                    font-family: 'Familjen Grotesk', sans-serif;
+                    color: aliceblue;
+                    position: relative;
+                    left: 50px;
+                    font-weight: 300;
+                    font-size: 120px;
+                    z-index: 1;
+                }
+                .quote1{
+                    text-align: center;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 900;
+                    position: relative;
+                    top: -180px;
+                    color:#FFB793;
+                    font-size:250px;
+                }
+        
+                .line1{
+                    height: 6px;
+                    width: 100px;
+                    background: aliceblue;
+                    position: relative;
+                    top: -220px;
+                    left: 50px;
+                }
+        
+                .image1{
+                    position: relative;
+                    top: -580px;
+                    left: 50%;
+                    transform: translate(-14%,0%);
+                    .image2{
+                        height: 390px;
+                        width: 370px;
+                    }
+                }
+        
+                .specifics1{
+                    position: relative;
+                    color: aliceblue;
+                    font-family: 'Lora', serif;
+                    font-style: italic;
+                    top: -150px;
+                    left: 50px;
+                    width: 300px;
+                    font-size: 18px;
+                }
+                .left1{
+                    height: 40px;
+                    width: 100px;
+                    border: none;
+                    position: relative;
+                    right: -700px;
+                    top: -190px;
+                    border-radius: 20px;
+                    color: #BF7652;
+                }
+                .right1{
+                    height: 40px;
+                    width: 100px;
+                    border: none;
+                    position: relative;
+                    right: -720px;
+                    top: -190px;
+                    border-radius: 20px;
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+
+    .arrowBackward{
+        height: 70px;
+        width: 70px;
+        opacity: 0.2;
+        position: absolute;
+        top: 300px;
+        left: 60px;
+        z-index: 3;
+    }
+    .arrowForward{
+        height: 70px;
+        width: 70px;
+        opacity: 0.2;
+        position: absolute;
+        top: 300px;
+        right: 60px;
+        z-index: 3;
+    }
+
+}
+
+
+@media(max-width: 1255px){
+    .carousel1 .carouselInside .carouselSlide .carouselItem .right {
+        height: 40px;
+        width: 100px;
+        border: none;
+        position: relative;
+        right: -584px;
+        top: -190px;
+        border-radius: 20px;
+        opacity: 0.6;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .left {
+        height: 40px;
+        width: 100px;
+        border: none;
+        position: relative;
+        right: -570px;
+        top: -190px;
+        border-radius: 20px;
+        color: #3CC1A0;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .right1 {
+        height: 40px;
+        width: 100px;
+        border: none;
+        position: relative;
+        right: -584px;
+        top: -190px;
+        border-radius: 20px;
+        opacity: 0.6;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .left1 {
+        height: 40px;
+        width: 100px;
+        border: none;
+        position: relative;
+        right: -570px;
+        top: -190px;
+        border-radius: 20px;
+        color: #BF7652;
+    }
+    
+    
+    .carousel1 {
+        align-items: center;
+        width: 840px;
+        height: 600px;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+    .carousel1 .carouselInside .carouselSlide1 {
+        margin: 0px 194px 0px 45px;
+        width: 890px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .number {
+        font-family: "Familjen Grotesk", sans-serif;
+        color: aliceblue;
+        position: relative;
+        left: 50px;
+        font-weight: 300;
+        font-size: 100px;
+        z-index: 1;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .number1 {
+        font-family: "Familjen Grotesk", sans-serif;
+        color: aliceblue;
+        position: relative;
+        left: 50px;
+        font-weight: 300;
+        font-size: 100px;
+        z-index: 1;
+    }
+
+    .carousel1 .carouselInside .carouselSlide .carouselItem .quote {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        position: relative;
+        top: -180px;
+        color: #4958D8;
+        font-size: 230px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .quote1 {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        position: relative;
+        top: -180px;
+        color: #FFB793;
+        font-size: 230px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .image .image1 {
+        height: 310px;
+        width: 260px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .image1 .image2 {
+        height: 310px;
+        width: 260px;
+    }
+
+
+    .carousel1 .carouselInside .carouselSlide .carouselItem .line {
+        height: 6px;
+        width: 75px;
+        background: aliceblue;
+        position: relative;
+        top: -255px;
+        left: 50px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .line1 {
+        height: 6px;
+        width: 75px;
+        background: aliceblue;
+        position: relative;
+        top: -255px;
+        left: 50px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .specifics {
+        position: relative;
+        color: aliceblue;
+        font-family: "Lora", serif;
+        font-style: italic;
+        top: -223px;
+        left: 50px;
+        width: 254px;
+        font-size: 15px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .specifics1 {
+        position: relative;
+        color: aliceblue;
+        font-family: "Lora", serif;
+        font-style: italic;
+        top: -223px;
+        left: 50px;
+        width: 254px;
+        font-size: 15px;
+    }
+
+
+    .carousel1 .carouselInside .carouselSlide {
+        margin: 0px 120px 0px -260px;
+        width: 920px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 {
+        margin: 0px 332px 0px 125px;
+        width: 890px;
+    }
+
+    .carousel1 .arrowBackward {
+        height: 50px;
+        width: 50px;
+        opacity: 0.2;
+        position: absolute;
+        top: 250px;
+        left: 60px;
+    }
+    .carousel1 .arrowForward {
+        height: 50px;
+        width: 50px;
+        opacity: 0.2;
+        position: absolute;
+        top: 250px;
+        right: 60px;
+    }
+    
+    
+
+}
+
+@media(max-width: 1100px){
+
+    .carousel1 .arrowBackward {
+        height: 50px;
+        width: 50px;
+        opacity: 0.2;
+        position: absolute;
+        top: 250px;
+        left: 35px;
+    }
+    .carousel1 .arrowForward {
+        height: 50px;
+        width: 50px;
+        opacity: 0.2;
+        position: absolute;
+        top: 250px;
+        right: 35px;
+    }
+}
+
+@media(max-width: 960px){
+    .carousel1 {
+        align-items: center;
+        width: 840px;
+        height: 420px;
+        margin: 30px auto;
+        overflow: hidden;
+    }
+
+    .carousel1 .carouselInside .carouselSlide .carouselItem .number {
+        font-family: "Familjen Grotesk", sans-serif;
+        color: aliceblue;
+        position: relative;
+        left: 50px;
+        font-weight: 300;
+        font-size: 70px;
+        z-index: 1;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .number1 {
+        font-family: "Familjen Grotesk", sans-serif;
+        color: aliceblue;
+        position: relative;
+        left: 50px;
+        font-weight: 300;
+        font-size: 70px;
+        z-index: 1;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .quote {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        position: relative;
+        top: -131px;
+        color: #4958D8;
+        font-size: 190px;
+        left: 62px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .quote1 {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        position: relative;
+        top: -131px;
+        color: #FFB793;
+        font-size: 190px;
+        left: 62px;
+    }
+
+    .carousel1 .carouselInside .carouselSlide {
+        margin: 15px 121px 0px -90px;
+        width: 890px;
+    }
+    .carousel1 .carouselInside .carouselSlide {
+        margin: 0px 467px 0px 125px;
+        width: 890px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 {
+        margin: 0px 0px 0px 75px;
+        width: 890px;
+    }
+    .carousel1 .carouselInside .carouselSlide {
+        margin: 0px 466px 0px 131px;
+        width: 890px;
+        position: relative;
+        left: 156px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .specifics {
+        position: relative;
+        color: aliceblue;
+        font-family: "Lora", serif;
+        font-style: italic;
+        top: -209px;
+        left: 50px;
+        width: 219px;
+        font-size: 13px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .specifics1 {
+        position: relative;
+        color: aliceblue;
+        font-family: "Lora", serif;
+        font-style: italic;
+        top: -209px;
+        left: 50px;
+        width: 219px;
+        font-size: 13px;
+    }
+
+    .carousel1 .carouselInside .carouselSlide .carouselItem .image .image1 {
+        height: 234px;
+        width: 183px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .image1 .image2 {
+        height: 234px;
+        width: 183px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .image {
+        position: relative;
+        top: -400px;
+        left: 60%;
+        transform: translate(-12%, 0%);
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .image1 {
+        position: relative;
+        top: -400px;
+        left: 60%;
+        transform: translate(-12%, 0%);
+    }
+}
+
+@media(max-width: 816px){
+
+    .carousel1 {
+        align-items: center;
+        width: 715px;
+        height: 600px;
+        margin: 30px auto;
+        overflow: hidden;
+    }
+    .carousel1 {
+        align-items: center;
+        width: 715px;
+        height: 344px;
+        margin: 30px auto;
+        overflow: hidden;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .right1 {
+        height: 30px;
+        width: 70px;
+        border: none;
+        position: relative;
+        right: -483px;
+        top: -168px;
+        border-radius: 20px;
+        opacity: 0.6;
+        font-size: 12px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .left1 {
+        height: 30px;
+        width: 70px;
+        border: none;
+        position: relative;
+        right: -470px;
+        top: -162px;
+        border-radius: 20px;
+        color: #BF7652;
+        font-size: 12px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .right {
+        height: 30px;
+        width: 70px;
+        border: none;
+        position: relative;
+        right: -483px;
+        top: -168px;
+        border-radius: 20px;
+        opacity: 0.6;
+        font-size: 12px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .left {
+        height: 30px;
+        width: 70px;
+        border: none;
+        position: relative;
+        right: -470px;
+        top: -162px;
+        border-radius: 20px;
+        color: #3CC1A0;
+        font-size: 12px;
+    }
+
+    .carousel1 .carouselInside .carouselSlide .carouselItem .number {
+        font-family: "Familjen Grotesk", sans-serif;
+        color: aliceblue;
+        position: relative;
+        left: 50px;
+        font-weight: 300;
+        font-size: 50px;
+        z-index: 1;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .number1 {
+        font-family: "Familjen Grotesk", sans-serif;
+        color: aliceblue;
+        position: relative;
+        left: 50px;
+        font-weight: 300;
+        font-size: 50px;
+        z-index: 1;
+    }
+
+    .carousel1 .carouselInside .carouselSlide .carouselItem .quote {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        position: relative;
+        top: -131px;
+        color: #4958D8;
+        font-size: 160px;
+        left: 62px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .quote1 {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        position: relative;
+        top: -131px;
+        color:#FFB793 ;
+        font-size: 160px;
+        left: 62px;
+    }
+
+    .carousel1 .carouselInside .carouselSlide1 {
+        margin: 0px 0px 0px 200px;
+        width: 890px;
+    }
+    .carousel1 .carouselInside .carouselSlide {
+        margin: 0px 445px 0px 119px;
+        width: 890px;
+        position: relative;
+        left: 156px;
+    }
+
+    .carousel1 .carouselInside .carouselSlide .carouselItem .specifics {
+        position: relative;
+        color: aliceblue;
+        font-family: "Lora", serif;
+        font-style: italic;
+        top: -180px;
+        left: 50px;
+        width: 219px;
+        font-size: 13px;
+    }
+
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .specifics1 {
+        position: relative;
+        color: aliceblue;
+        font-family: "Lora", serif;
+        font-style: italic;
+        top: -180px;
+        left: 50px;
+        width: 219px;
+        font-size: 13px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .line {
+        height: 6px;
+        width: 57px;
+        background: aliceblue;
+        position: relative;
+        top: -209px;
+        left: 50px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .line1 {
+        height: 6px;
+        width: 57px;
+        background: aliceblue;
+        position: relative;
+        top: -209px;
+        left: 50px;
+    }
+    .carousel1 .arrowForward {
+        height: 35px;
+        width: 50px;
+        opacity: 0.2;
+        position: absolute;
+        top: 205px;
+        right: 30px;
+    }
+    .carousel1 .arrowBackward {
+        height: 35px;
+        width: 50px;
+        opacity: 0.2;
+        position: absolute;
+        top: 205px;
+        left: 30px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .image {
+        position: relative;
+        top: -384px;
+        left: 62%;
+        transform: translate(-12%, 0%);
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .image1 {
+        position: relative;
+        top: -394px;
+        left: 62%;
+        transform: translate(-12%, 0%);
+    }
+
+    .carousel1 .carouselInside .carouselSlide .carouselItem .image .image1 {
+        height: 200px;
+        width: 159px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .image1 .image2 {
+        height: 200px;
+        width: 159px;
+    }
+}
+
+
+@media(max-width: 700px){
+    .carousel1 {
+        align-items: center;
+        width: 630px;
+        height: 334px;
+        margin: 30px auto;
+        overflow: hidden;
+    }
+
+
+    .carousel1 .carouselInside .carouselSlide .carouselItem .quote {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        position: relative;
+        top: -84px;
+        color: #4958D8;
+        font-size: 130px;
+        left: 62px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .quote1 {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        position: relative;
+        top: -84px;
+        color: #FFB793;
+        font-size: 130px;
+        left: 62px;
+    }
+
+    .carousel1 .carouselInside .carouselSlide1 {
+        margin: 0px 0px 0px 300px;
+        width: 890px;
+    }
+    .carousel1 .carouselInside .carouselSlide {
+        margin: 0px 445px 0px 139px;
+        width: 890px;
+        position: relative;
+        left: 157px;
+    }
+
+
+    .carousel1 .carouselInside .carouselSlide .carouselItem .specifics {
+        position: relative;
+        color: aliceblue;
+        font-family: "Lora", serif;
+        font-style: italic;
+        top: -142px;
+        left: 50px;
+        width: 133px;
+        font-size: 10px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .specifics1 {
+        position: relative;
+        color: aliceblue;
+        font-family: "Lora", serif;
+        font-style: italic;
+        top: -142px;
+        left: 50px;
+        width: 133px;
+        font-size: 10px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .image {
+        position: relative;
+        top: -291px;
+        left: 62%;
+        transform: translate(-12%, 0%);
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .image1 {
+        position: relative;
+        top: -301px;
+        left: 62%;
+        transform: translate(-12%, 0%);
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .image .image1 {
+        height: 179px;
+        width: 145px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .line1 {
+        height: 6px;
+        width: 37px;
+        background: aliceblue;
+        position: relative;
+        top: -153px;
+        left: 50px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .line {
+        height: 6px;
+        width: 37px;
+        background: aliceblue;
+        position: relative;
+        top: -153px;
+        left: 50px;
+    }
+
+    .carousel1 .carouselInside .carouselSlide .carouselItem .right {
+        height: 25px;
+        width: 60px;
+        border: none;
+        position: relative;
+        right: -417px;
+        top: -93px;
+        border-radius: 20px;
+        opacity: 0.6;
+        font-size: 10px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .left {
+        height: 25px;
+        width: 60px;
+        border: none;
+        position: relative;
+        right: -410px;
+        top: -87px;
+        border-radius: 20px;
+        color: #3CC1A0;
+        font-size: 11px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .right1 {
+        height: 25px;
+        width: 60px;
+        border: none;
+        position: relative;
+        right: -417px;
+        top: -93px;
+        border-radius: 20px;
+        opacity: 0.6;
+        font-size: 10px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .left1 {
+        height: 25px;
+        width: 60px;
+        border: none;
+        position: relative;
+        right: -410px;
+        top: -87px;
+        border-radius: 20px;
+        color: #BF7652;
+        font-size: 11px;
+    }
+
+}
+
+
+@media(max-width: 600px){
+
+    .carousel1 {
+        align-items: center;
+        width: 520px;
+        height: 280px;
+        margin: 30px auto;
+        overflow: hidden;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .number1 {
+        font-family: "Familjen Grotesk", sans-serif;
+        color: aliceblue;
+        position: relative;
+        left: 50px;
+        font-weight: 300;
+        font-size: 41px;
+        z-index: 1;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .number {
+        font-family: "Familjen Grotesk", sans-serif;
+        color: aliceblue;
+        position: relative;
+        left: 50px;
+        font-weight: 300;
+        font-size: 41px;
+        z-index: 1;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .quote1 {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        position: relative;
+        top: -84px;
+        color: #FFB793;
+        font-size: 100px;
+        left: 62px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .quote {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        position: relative;
+        top: -84px;
+        color: #4958D8;
+        font-size: 100px;
+        left: 62px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 {
+        margin: 0px 0px 0px 414px;
+        width: 890px;
+    }
+    .carousel1 .carouselInside .carouselSlide {
+        margin: 0px 440px 0px 137px;
+        width: 890px;
+        position: relative;
+        left: 157px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .image .image1 {
+        height: 134px;
+        width: 101px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .image {
+        position: relative;
+        top: -271px;
+        left: 68%;
+        transform: translate(-12%, 0%);
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .image1 .image2 {
+
+        height: 150px;
+        width: 114px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .image1 {
+        position: relative;
+        top: -271px;
+        left: 67%;
+        transform: translate(-12%, 0%);
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .right1 {
+        height: 25px;
+        width: 60px;
+        border: none;
+        position: relative;
+        right: -337px;
+        top: -93px;
+        border-radius: 20px;
+        opacity: 0.6;
+        font-size: 10px;
+    }
+    .carousel1 .carouselInside .carouselSlide1 .carouselItem1 .left1 {
+        height: 25px;
+        width: 60px;
+        border: none;
+        position: relative;
+        right: -330px;
+        top: -87px;
+        border-radius: 20px;
+        color: #BF7652;
+        font-size: 11px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .left {
+        height: 25px;
+        width: 60px;
+        border: none;
+        position: relative;
+        right: -330px;
+        top: -87px;
+        border-radius: 20px;
+        color: #3CC1A0;
+        font-size: 11px;
+    }
+    .carousel1 .carouselInside .carouselSlide .carouselItem .right {
+        height: 25px;
+        width: 60px;
+        border: none;
+        position: relative;
+        right: -337px;
+        top: -93px;
+        border-radius: 20px;
+        opacity: 0.6;
+        font-size: 10px;
+    }
+}
